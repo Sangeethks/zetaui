@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Zeta-UI Task</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+</head>
+<body>
+
+    <div class="zt-page-container">
+        <div class="col-sec col-md-3 zt-sidebar-col" id="zt-sidebar-col">
+            <div class="zt-sidebar">
+                <div class="navbar-top">
+                    <div class="zt-compose">
+                        <button type="button" class="zt-btn zt-btn-full zt-compose-btn">Compose</button>
+                    </div>
+                </div>
+                <div class="navbar-menu">
+                    <ul>
+                        <li><a href="#" class="nav-active"><img src="images/inbox-dark.svg" alt="inbox" class="nav-ico"><span class="hidden-medium">Inbox</span><i class="zt-badge"></i></a></li>
+                        <li><a href="#" class=""><img src="images/heart-light.svg" alt="dearest" class="nav-ico"><span class="hidden-medium">Dearest</span><i class="zt-badge"></i></a></li>
+                        <li><a href="#" class=""><img src="images/sent-light.svg" alt="sent" class="nav-ico"><span class="hidden-medium">Sent</span><i class="zt-badge"></i></a></li>
+                        <li><a href="#" class=""><img src="images/drafts-light.svg" alt="drafts" class="nav-ico"><span class="hidden-medium">Drafts</span><i class="zt-badge"></i></a></li>
+                        <li><a href="#" class=""><img src="images/trash-light.svg" alt="trash" class="nav-ico"><span class="hidden-medium">Trash</span><i class="zt-badge"></i></a></li>
+                    </ul>
+                </div>
+                <div class="navbar-labels">
+                    <h4 class="text-fade text-sm">LABELS <i class="label-ico label-ico-right"><img src="images/plus-grey.svg" alt="plus-grey"></i></h4>
+                    <ul class="lable-rdos">
+                        <li>
+                            <label for="rdo-work">
+                                <input type="radio" name="rdo-labels" class="rdo-labels" id="rdo-work">Work<div class="check check-primary"></div>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="rdo-fashion"><input type="radio" name="rdo-labels" class="rdo-labels" id="rdo-fashion" checked="true">Fashion<div class="check check-success"></div></label>
+                        </li>
+                        <li>
+                            <label for="rdo-animals"><input type="radio" name="rdo-labels" class="rdo-labels" id="rdo-animals">Animals<div class="check check-error"></div></label>
+                        </li>
+                        <li>
+                            <label for="rdo-code"><input type="radio" name="rdo-labels" class="rdo-labels" id="rdo-code">Code<div class="check check-warning"></div></label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="col-sec col-md-9 zt-page-col">
+            <div class="zt-page">
+                <div class="page-header-nav hidden-large">
+                    <button type="button" class="zt-btn btn-hamburg" id="zt-ham-btn">
+                        <span class="zt-ham-line ham-line-1"></span>
+                        <span class="zt-ham-line ham-line-2"></span>
+                        <span class="zt-ham-line ham-line-3"></span>
+                    </button>
+                </div>
+                <div class="zt-page-header">
+                    <h1 class="text-lg">Inbox</h1>
+                    <div class="zt-search-box">
+                        <div class="zt-input-grp">
+                            <input type="text" class="zt-form-input">
+                            <div class="input-grp-ico"><img src="images/search.svg"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="zt-dt-nav">
+                    <ul class="zt-dtnav-icos">
+                        <li><button type="button" class="zt-btn btn-ico btn-ico-sm"><img src="images/reply-grey.svg" alt=""></button></li>
+                        <li><button type="button" class="zt-btn btn-ico btn-ico-sm"><img src="images/heart-grey.svg" alt=""></button></li>
+                        <li><button type="button" class="zt-btn btn-ico btn-ico-sm"><img src="images/trash-grey.svg" alt=""></button></li>
+                        <li><button type="button" class="zt-btn btn-ico btn-ico-sm"><img src="images/down-arrow-grey.svg" alt=""></button></li>
+                    </ul>
+                    <ul class="zt-dtnav-filter">
+                        <li><a href="#">Alphabetically</a></li>
+                        <li><a href="#" class="dtnav-active">Recent</a></li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="zt-data-table">
+                    <div class="table-responsive">
+                    <table class="table">
+                        <tbody class="zt-inbox-table" id="zt-inbox-table"></tbody>
+                    </table>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear-left"></div>
+    </div>
+
+</body>
+</html>

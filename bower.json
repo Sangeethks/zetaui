@@ -1,0 +1,23 @@
+{
+  "name": "zeta",
+  "description": "zeta-ui-task",
+  "main": "index.js",
+  "authors": [
+    "sangeeth_ks"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "zeta",
+    "ui",
+    "task"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

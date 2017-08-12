@@ -1,0 +1,30 @@
+{
+  "name": "zeta",
+  "version": "1.0.0",
+  "description": "zeta-ui-task",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV==development webpack-dev-server",
+    "build": "NODE_ENV==production webpack -p"
+  },
+  "author": "sangeeth_ks",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "clean-webpack-plugin": "^0.1.16",
+    "cross-env": "^5.0.3",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.0",
+    "html-webpack-plugin": "^2.30.1",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  }
+}

@@ -1,0 +1,16 @@
+.col-sec {
+    padding: 0;
+}
+.col-md-3, .col-md-9 {
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-md-3 {
+    width: 25%;
+}
+.col-md-9 {
+    width: 75%;
+}
