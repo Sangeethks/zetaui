@@ -114,14 +114,20 @@ export const zetaMain = (function ($) {
         }
 
         var btnToggler = true;
-        $('#zt-ham-btn').on('click', function (e) {
+        $('#zt-ham-btn, #zt-overlay').on('click', function (e) {
             btnToggler = !btnToggler;
             if (btnToggler) {
+                // document.body.style.overflow = 'auto';
                 $('#zt-sidebar-col').removeClass('open');
-                $(this).removeClass('ham-open');
+                $('#zt-overlay').removeClass('open');
+                $('#zt-page-col').css({ position: 'relative' });
+                // $(this).removeClass('ham-open');
             } else {
+                // document.body.style.overflow = 'hidden';
+                $('#zt-page-col').css({ position: 'fixed' });
                 $('#zt-sidebar-col').addClass('open');
-                $(this).addClass('ham-open');
+                $('#zt-overlay').addClass('open');
+                // $(this).addClass('ham-open');
             }
         })
     });

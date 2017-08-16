@@ -1,13 +1,15 @@
 .zt-sidebar-col {
     padding: 0;
     z-index: 1024;
-}
-.zt-page-col {
-    padding: 0;
+    float: left;
+    position: fixed;
+    height: 100%;
 }
 .zt-sidebar {
     width: 250px;
     background-color: #1b2224;
+    overflow-y: scroll;
+    height: 100%;
 }
 .navbar-top {
     position: relative;
@@ -41,6 +43,7 @@
             font-weight: 600;
             &:hover {
                 background-color: $fade-grey;
+                color: #FFFFFF;
             }
         }
         a.nav-active {

@@ -1,6 +1,12 @@
 .zt-page {
     padding: 0 30px;
 }
+.zt-page-col {
+    padding: 0;
+    float: left;
+    width: calc(100% - 250px);
+    margin-left: 250px;
+}
 .zt-page-header {
     margin-top: 20px;
     .text-lg {
@@ -82,6 +88,10 @@
             display: block;
             padding-bottom: 30px;
             padding-left: 15px;
+            transition: all 0.3s ease;
+            &:hover {
+                color: $light-grey;
+            }
         }
         a.dtnav-active {
             color: $light-grey;
@@ -154,4 +164,14 @@
 .prof-attach img {
     width: 20px;
     margin-right: 10px;
+}
+.zt-overlay {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1020;
+}
+.zt-overlay.open {
+    height: 100%;
 }
